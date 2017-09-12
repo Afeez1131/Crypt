@@ -11,13 +11,17 @@ def banner():
 	print('        \/          /__/   |_|     |_|/ ')
 	print('          +----==[crypt v1 by Afeez ]==----+ ')
 	
-	print('+----==[ Usage: Python3 crypt.py [mode] [key] ]==----+')
+	
 	print('+----==[  e.g Python3 crypt.py encrypt 200    ]==----+')
 	print('       |------- A Warm Welcome to Crypt-------| ')
-	print('       |-------Github: github.com      -------| ')
+	print('       |--https://github.com/Afeez1131/Crypt--| ')
 	print('       |------- Works only on Linux O.s-------| ')
 	print('       |-------  Tested on Kali Linux  -------| ')
-
+	print('python3 crypt.py pathtoatextfile mode[encrypt or decrypt] key[any number]')
+	print('Usage: python3 crypt.py /root/Desktop/texttoencrypt.txt encrypt 20')
+	print('python3 crypt.py /root/Desktop/texttodecrypt.txt decrypt 20')
+	print()
+	print('NOTE: you can only decrypt your file with the key you use to encrypt it, there is a folder on your Desktop/Encrypted called keys.txt, it contains your key for different fileName ')
 __author__="Afeez (lawalafeez052@gmail.com) "
 __date__ ="12- 09 -2017 "	
 
